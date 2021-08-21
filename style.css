@@ -1,0 +1,96 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+}
+
+img {
+    width: 100%;
+}
+
+/* mac-info ============ */
+.mac-info {
+    padding-left: 80px;
+}
+
+h1 {
+    font-size: 43px;
+    color: rgba(0, 0, 0, 0.9);
+}
+
+p {
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.8);
+    line-height: 1.4rem;
+    margin-top: 10px;
+}
+
+.memories,
+.storages,
+.deliveries {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.item {
+    margin-right: 5px;
+    margin-top: 6px;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.1s ease-out;
+}
+
+
+.item:hover {
+    background: black;
+    color: white;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+}
+
+td {
+    color: black;
+    font-weight: 800;
+    padding: 10px 0px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.horaizontal-line {
+    border-bottom: 1px solid black;
+}
+
+.promo-title {
+    margin-top: 20px;
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 300;
+}
+
+input {
+    margin: 20px 0;
+    padding: 10px 5px;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+}
+
+.promo-button {
+    background: tomato;
+    padding: 9px 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+/* optional total value  */
+#total {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
